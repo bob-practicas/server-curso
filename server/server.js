@@ -15,6 +15,8 @@ app.get('/', (req,res)=>{
     res.json('Hola mundo');
 });
 
+console.log('Hola');
+
 app.get('/usuarios',(req,res)=>{
     res.json('Get de usuarios');
 });
